@@ -1,0 +1,92 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+/* navbar */
+
+*{
+    margin: 10px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.container section .navbar-container div{
+    display: inline-block;
+}
+
+.navbar-container div img{
+    width:100px;
+}
+
+.grow-list, .button-group{
+   display: inline-block;
+   position: relative;
+   bottom: 20px;
+   margin-left: 0;
+
+}
+
+.list{
+    display: flex;
+    list-style-type:none;
+    justify-content: space-between;
+    color: #758283;
+    font-size: small;
+    padding: 0;
+}
+
+.list-item:hover{
+    color: black;
+    cursor: pointer;
+
+}
+
+.button-group{
+    margin-left:480px;
+    }
+
+.nav-button{
+    background-color: #5A20CB;
+    color: #fff;
+    height: 40px;
+    border-radius: 10px;
+    width: 110px;
+    border-color: #5A20CB;
+    cursor: pointer;
+}
+
+.nav-button:hover{
+    background-color: #1d0847;
+    border: none;
+}
+
+ /* Banner */
+
+ .banner-container{
+    display: flex;
+    margin-top: -10px;
+
+ }
+
+ .heading-text{
+    color:#1d0847 ;
+    font-size: 60px;
+    margin-top: 125px;
+    line-height: 70px;
+ }
+ span{
+    color:#5B15EA;
+    margin-left: 0;
+ }
+.description{
+    color: #758283;
+    font-size: small;
+    margin-top: 30px;
+}
+
+.btn{
+    margin-top: 6vh;
+    background-color: #5A20CB;
+    color: #fff;
+    height: 7vh;
+    border-radius: 10px;
+    width: 12vw;
+    border-color: #5A20CB;
+    cursor: pointer;
+}
